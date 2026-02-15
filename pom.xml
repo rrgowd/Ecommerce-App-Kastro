@@ -8,6 +8,7 @@
   <name>EcommerceApp Maven Webapp</name>
   <url>http://maven.apache.org</url>
 
+  
   <dependencies>
     <!-- Updated JUnit to JUnit 5 -->
     <dependency>

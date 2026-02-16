@@ -5,7 +5,6 @@ pipeline {
         jdk 'jdk17'
         maven 'maven'
     }
-
     environment {
         SCANNER_HOME = tool 'sonar-scanner'
         DOCKER_IMAGE = "rrgowd/ecommerce:${BUILD_NUMBER}"
